@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { FaAlignRight } from "react-icons/fa";
 import logo from "../images/logo.svg";
+
  // This is a class component and we can call it directly using rcc
  
 export default class Navbar extends Component {
