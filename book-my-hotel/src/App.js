@@ -1,14 +1,22 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 
 import './App.css';
+
+
+import Navbar from "./components/Navbar";
 
 import Home from "./pages/Home.js";
 import Room from "./pages/Room.js";
 import Error from "./pages/Error.js";
 
-import Navbar from "./components/Navbar";
+import {
+  BrowserRouter,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
-import { Route, Switch } from "module";
 function App() {
   return (
     <>
@@ -19,7 +27,7 @@ function App() {
     <Route exact path = '/room/' component = {Room} />
     <Route component = {Error} />
     </Switch>
-    </>
+        </>
   );
 }
 
