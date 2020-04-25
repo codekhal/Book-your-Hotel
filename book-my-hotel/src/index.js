@@ -1,22 +1,26 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import ReactDOM from "react-dom";
 
 import App from "./App";
 
+
 import * as serviceWorker from "./serviceWorker";
 
-// import { RoomProvider } from "./context";
+import { RoomProvider } from "./context";
 
 import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
-  // <RoomProvider>
+  <RoomProvider>
 
     <BrowserRouter>
+
       <App />
+      
     </BrowserRouter>,
 
-  // </RoomProvider>,
+  </RoomProvider>,
   
   document.getElementById("root")
 );
