@@ -10,6 +10,7 @@ import * as serviceWorker from "./serviceWorker";
 import { RoomProvider } from "./context";
 
 import { BrowserRouter } from "react-router-dom";
+import 'tachyons';
 
 ReactDOM.render(
   <RoomProvider>
