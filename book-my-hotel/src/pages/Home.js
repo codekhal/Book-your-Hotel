@@ -15,7 +15,7 @@ const home = () => {
           title="luxurious rooms"
           subtitle="With full transparency and no extra hidden charges"
         >
-          <Link to="/rooms" className="btn-primary">
+          <Link to="/room" className="btn-primary">
             our rooms
           </Link>
         </Banner>
