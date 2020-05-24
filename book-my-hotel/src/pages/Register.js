@@ -22,7 +22,7 @@ const Register = () => {
             </div>
             </fieldset>
             <div className="">
-            <Link to="/" className="btn-primary">
+            <Link to="/booked" className="btn-primary">
             Register
             </Link>
             </div>
