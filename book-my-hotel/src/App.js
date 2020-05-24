@@ -9,6 +9,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home.js";
 import Room from "./pages/Room.js";
 import Register from "./pages/Register.js";
+import Print from "./pages/Print.js";
 import Error from "./pages/Error.js";
 
 import {
@@ -27,6 +28,7 @@ function App() {
     <Route exact path = '/' component = {Home} />
     <Route exact path = '/room/' component = {Room} />
     <Route exact path = '/register/' component = {Register} />
+    <Route exact path = '/booked/' component = {Print} />
     <Route component = {Error} />
     </Switch>
         </>
