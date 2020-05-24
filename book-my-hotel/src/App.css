@@ -155,6 +155,24 @@ h6 {
   }
 }
 /* end of navbar */
+
+/*
+  Start of Book Room
+*/
+
+.printme {
+	display: none;
+}
+@media print {
+	.no-printme  {
+		display: none;
+	}
+	.printme  {
+		display: block;
+	}
+}
+
+/* end of book room */
 /* Hero */
 .defaultHero,
 .roomsHero {
